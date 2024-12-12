@@ -1,12 +1,16 @@
 #README
+
  #1. Introducción
+ 
  ● Objetivo principal: Desarrollar un modelo de machine learning para 
 optimizar el consumo de energía en una smart home integrada con energías 
 renovables.
  ● Alcance: Análisis de series temporales de consumo energético, predicción 
 de generación de energía renovable y optimización del uso de dispositivos 
 (ej: aire acondicionado).
+
  #2. Metodología
+ 
  ● Recopilación de datos:
  Fuente de datos: CSV con información de consumo energético de diversos 
 dispositivos y variables ambientales.
@@ -23,7 +27,9 @@ categóricos en numéricos.
  Entrenamiento: Utilización de los datos para entrenar el modelo.
  ● Evaluación: 
 Métricas de evaluación hallando R2 para medir la precisión del modelo.
+
 # 3. Resultados
+
  ● Principales hallazgos:
  ○ Correlación significativa entre temperatura aparente, punto de rocío y 
 consumo energético.
@@ -32,7 +38,9 @@ consumo energético.
  ○ Posibilidad de optimizar el consumo energético mediante la predicción 
 de la demanda y la generación.
  ○ Beneficios económicos para el usuario y de tipo ambiental.
+ 
  #4. Conclusiones
+ 
  ● Resumen de los resultados:  El modelo de regresión lineal ha demostrado 
 un desempeño excepcional con un coeficiente de determinación (R²) de 
 0.989. Esto indica que el modelo explica casi el 99% de la variabilidad en el 
@@ -44,7 +52,9 @@ consumo).
  ○ Desarrollo de una interfaz de usuario más amigable.
  ○ Implementación en fábricas para que en las horas pico se consuma 
 menos energía y se reduzcan significativamente los costos operativos.
+
 # 5. Impacto
+
  ● Beneficios para el usuario:
  ○ Reducción de costos en las facturas de energía.
  ○ Mayor confort en el hogar.
@@ -71,7 +81,9 @@ uso innecesario de energía de la red.
  ● Manejo de datos incompletos o ruidosos: Los datos de consumo y 
 generación pueden estar incompletos o ser ruidosos debido a errores de 
 medición, lo que puede afectar la precisión de las predicciones del modelo.
+
  #Guía detallada paso a paso
+ 
  Para usuarios menos familiarizados con Python y machine learning:
  1. Descarga el modelo: Haz clic en el botón "Descargar" en el repositorio y 
 guarda el archivo en tu computadora.
